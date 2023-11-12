@@ -1,0 +1,67 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;400&family=Poppins:wght@500&display=swap");
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+}
+/* End Typography */
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* End reset */
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  margin: auto;
+  width: 50%;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.hero-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
