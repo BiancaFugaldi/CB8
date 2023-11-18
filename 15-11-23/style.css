@@ -1,0 +1,113 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;400&family=Poppins:wght@500&display=swap");
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+p {
+  font-size: 12px;
+}
+/* End Typography */
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* End reset */
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.nav-item {
+  width: 80px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card-footer {
+  display: flex;
+}
+
+.shoe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.shoe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 160px;
+  background-color: #e8e3e3;
+  border-radius: 1px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.fav-item {
+  border: 1px solid red;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.shoe-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.shoe h4,
+p {
+  margin: 4px 0;
+  padding: 4px 0;
+}
+
+.shoe .text {
+  padding: 0 10px;
+}
