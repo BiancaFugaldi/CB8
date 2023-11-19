@@ -1,0 +1,30 @@
+.popup {
+  position: fixed;
+  top: 10%;
+  left: calc(50% - 170px);
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: grey;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.popup button {
+  border: 0;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  color: grey;
+  border-radius: 12px;
+  transition: all 0.35s;
+}
+
+.popup button:hover {
+  background-color: grey;
+  color: white;
+  border: 1px solid white;
+}
